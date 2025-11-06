@@ -21,7 +21,7 @@ The document unifies both theoretical and empirical analyses of **interference-d
 
 ## ⚛️ Abstract
 We develop a minimal two-qubit Hamiltonian model linking energy-landscape curvature to the information geometry of quantum kernels through  
-\(\mathrm{Tr}(F_Q)=4\,\mathrm{Var}(H)\).  
+Tr(F_Q) = 4 × Var(H).  
 Empirical validation at finite coupling confirms that constructive interference induces curvature-stable information geometry supporting robust cross-task adaptability in quantum meta-reinforcement learning.
 
 ---
