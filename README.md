@@ -44,10 +44,15 @@ This links Hamiltonian curvature to generalization ability, providing the first 
 
 Six architectures spanning interference-driven, entangled, and randomized models:
 	1.	Quantum_Interference — H–CZ–RZ–H pattern
+	
 	2.	Quantum_HZH — H–Z–H interference sandwich
+	
 	3.	Quantum_Entangled — Bell-like initialization + mixed rotations
+	
 	4.	Quantum_Advanced — multi-axis entangled circuit
+	
 	5.	Quantum_Randomized — random rotations (non-interference baseline)
+	
 	6.	Quantum_CZDepth(k) — interference-depth sweep (k = 1–4)
 
 Classical baselines include Greedy, Random, and Q-Learning.
