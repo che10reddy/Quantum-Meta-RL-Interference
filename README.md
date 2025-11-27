@@ -68,6 +68,7 @@ Classical baselines include Greedy, Random, and Q-Learning.
 1. Quantum agents generalize better on dynamic and penalty tasks.
 
 Quantum_Interference and Quantum_HZH achieved:
+
 	•	High stability on T2 (moving target)
 	•	Near-perfect success on T3 (penalty field)
 	•	Characteristic low-curvature behavior predicted by the Hamiltonian model
@@ -93,6 +94,7 @@ Quantum kernels remain stable up to p ≈ 0.6, while classical kernels degrade i
 🔹 The Hamiltonian–QFI Model
 
 We derive a closed-form relationship linking:
+
 	•	Hamiltonian variance
 	•	Quantum Fisher information
 	•	Generalization curvature
@@ -102,6 +104,7 @@ This provides a physical explanation for why interference helps agents adapt acr
 🔹 Kernel Geometry Link
 
 Interference strength predicts:
+
 	•	task manifold structure
 	•	cluster separability
 	•	curvature peaks
@@ -110,6 +113,7 @@ Interference strength predicts:
 ⸻
 
 🚀 Future Work
+
 	•	Scale to larger or continuous-control environments
 	•	Add learnable quantum meta-agents (hybrid VQC)
 	•	Run circuits on real IBM hardware
