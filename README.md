@@ -17,10 +17,13 @@ This project introduces the first fixed-policy quantum meta-reinforcement learni
 We show that constructive interference encodes transferable action structure across tasks, enabling quantum agents to outperform classical heuristics in non-stationary and penalty-shaped environments.
 
 The project consists of three phases:
+
 	1.	Phase 1A — Environments
 Three custom 5×5 grid-worlds with increasing complexity.
+
 	2.	Phase 1B — Agent Evaluation
 Six quantum circuits + classical baselines tested across 20 rollouts per task.
+
 	3.	Phase 1C — Kernel Geometry & Theory
 Quantum kernel matrices, PCA manifolds, interference sweeps, and a Hamiltonian-QFI analytical model.
 
@@ -34,7 +37,7 @@ Instead of training a policy using gradients, we use constructive and destructiv
 
 The central theoretical result:
 
-\mathrm{Tr}(F_Q) = 4\,\mathrm{Var}(H)
+Tr(FQ) = 4 Var(H)
 
 This links Hamiltonian curvature to generalization ability, providing the first physics-grounded mechanism for inductive bias in quantum RL.
 
@@ -43,6 +46,7 @@ This links Hamiltonian curvature to generalization ability, providing the first 
 🌀 Quantum Circuits Implemented
 
 Six architectures spanning interference-driven, entangled, and randomized models:
+
 	1.	Quantum_Interference — H–CZ–RZ–H pattern
 	
 	2.	Quantum_HZH — H–Z–H interference sandwich
