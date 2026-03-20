@@ -121,11 +121,3 @@ Interference strength predicts:
 
   I’m excited to take the interference-generalization idea from a promising 2-qubit prototype into the scale, theory, and hardware regime where it can become a real foundation for quantum machine learning.
 
-⸻
-
-📄 Citation
-
-If you use this work, please cite:
-
-C. Guduru, “Quantum Meta-Reinforcement Learning via Interference-Driven Policy Architectures,” 2025.
-
