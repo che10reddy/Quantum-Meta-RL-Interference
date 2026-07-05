@@ -4,8 +4,6 @@ A physics-grounded exploration of generalization in RL through quantum interfere
 
 Author: Chetan Guduru
 
-Status: Completed — Phase 1 
-
 Paper: Quantum Meta-Reinforcement Learning via Interference-Driven Policy Architectures (QMRL)
 
 ⸻
@@ -55,9 +53,7 @@ Six architectures spanning interference-driven, entangled, and randomized models
 	
 	4.	Quantum_Advanced — multi-axis entangled circuit
 	
-	5.	Quantum_Randomized — random rotations (non-interference baseline)
-	
-	6.	Quantum_CZDepth(k) — interference-depth sweep (k = 1–4)
+	5.	Quantum_CZDepth(k) — interference-depth sweep (k = 1–4)
 
 Classical baselines include Greedy, Random, and Q-Learning.
 
@@ -118,6 +114,4 @@ Interference strength predicts:
 	•	Add learnable quantum meta-agents (hybrid VQC)
 	•	Run circuits on real IBM hardware
 	•	Expand classical baselines (PPO, A2C, RBF-meta-RL)
-
-  I’m excited to take the interference-generalization idea from a promising 2-qubit prototype into the scale, theory, and hardware regime where it can become a real foundation for quantum machine learning.
 
